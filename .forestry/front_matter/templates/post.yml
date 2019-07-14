@@ -49,4 +49,5 @@ fields:
   label: Tags
   description: Tags for homepage
 pages:
+- _posts/Vagrant - Deep Dive/how-to-install-vagrant.md
 - _posts/Vagrant - Deep Dive/vagrant-deep-dive-introduction.md
