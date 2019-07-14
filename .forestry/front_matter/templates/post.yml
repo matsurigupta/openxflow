@@ -1,4 +1,50 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: post
+  description: Choose the layout
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Enter the title of the post
+- name: author
+  type: tag_list
+  default:
+  - parv
+  label: Author
+  description: Author of post
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
+  description: Banner image for the post
+- name: publish_date
+  type: datetime
+  label: Publish Date
+  description: Choose the date to publish
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+  description: 'Choose the category '
+- name: tags
+  type: tag_list
+  default:
+  - Featured
+  label: Tags
+  description: Tags for homepage
