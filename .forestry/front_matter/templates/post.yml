@@ -48,3 +48,5 @@ fields:
   - Featured
   label: Tags
   description: Tags for homepage
+pages:
+- _posts/Vagrant - Deep Dive/vagrant-deep-dive-introduction.md
